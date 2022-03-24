@@ -119,7 +119,7 @@ DEVS = (
 # Blacklist User for use Grovy-Userbot
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/Xgrophy/grovylist/master/grovyblacklist.json"
+        "https://raw.githubusercontent.com/Xgrophy/Grovylist/master/grovyblacklist.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:

@@ -30,7 +30,7 @@ try:
     call_py.start()
     user = bot.get_me()
     grovyblacklist = requests.get(
-        "https://raw.githubusercontent.com/Xgrophy/grovylist/master/grovyblacklist.json"
+        "https://raw.githubusercontent.com/Xgrophy/Grovylist/master/grovyblacklist.json"
     ).json()
     if user.id in grovyblacklist:
         LOGS.warning(

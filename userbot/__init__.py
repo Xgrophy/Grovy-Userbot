@@ -116,17 +116,17 @@ DEVS = (
     2130526178,
 )
 
-# Blacklist User for use Skyla-Userbot
+# Blacklist User for use Grovy-Userbot
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/Xgrophy//master/blacklist.json"
+        "https://raw.githubusercontent.com/Xgrophy/grovylist/master/grovyblacklist.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
             continue
-        blacklist = []
+        grovyblacklist = []
         break
-    blacklist = _BLACKLIST.json()
+    grovyblacklist = _BLACKLIST.json()
     break
 
 del _BLACKLIST

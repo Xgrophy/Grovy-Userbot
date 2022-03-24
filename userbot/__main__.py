@@ -18,7 +18,7 @@ from userbot import (
     BOT_VER,
     LOGS,
     ALIVE_NAME,
-    skylablacklist,
+    grovyblacklist,
     bot,
     call_py,
 )
@@ -34,7 +34,7 @@ try:
     ).json()
     if user.id in grovyblacklist:
         LOGS.warning(
-            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE ORANG KEK LU.\nCredits: @IDnyaKosong"
+            "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTnya GUA MATIIN NAJIS BANGET DIPAKE ORANG KEK LU.\nCredits: @OpyRights"
         )
         sys.exit(1)
 except Exception as e:
